@@ -1,0 +1,13 @@
+:root {
+  --fonte-titulo: 'Asap', sans-serif;
+  --fonte-codigo: 'Inconsolata', monospace;
+  --fonte-texto: 'Maven Pro', sans-serif;
+  --cor-fundo-principal: #0D0D14;
+  --cor-fundo-secundaria: #000000;
+  --cor-destaque: #E3646E;
+  --cor-branca: #E2E4E9;
+  --cor-cinza:  #878EA1;
+  --cor-cinzaclaro: #C0C4CE;
+
+}
+

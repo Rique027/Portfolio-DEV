@@ -1,0 +1,86 @@
+  .projetos {
+    background-color: #16181D;
+
+  }
+
+  .apresentaçao {
+    font-family: var(--fonte-codigo);
+    color: #E3646E;
+    margin-bottom: 10px;
+  }
+
+  .card {
+    width: 300px;
+    background-color: #292C34;
+    border-radius: 12px;
+    padding: 20px;
+   
+  }
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+  margin-bottom: 22px;
+  
+ 
+  }
+
+.titulos-projeto {
+   text-align: center;
+   padding-top: 50px;
+  }
+
+  .card-container {
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 120px;
+  }
+
+  .moldura {
+  border-radius: 12px;
+  background-color: rgb(53, 53, 131);
+  padding: 16px 16px 16px;
+  height: 140px;  /* MESMA altura que a imagem sem moldura */
+  box-sizing: border-box; /* impede o padding de aumentar o tamanho total */
+  position: relative;
+  overflow: hidden; /* garante que nada vaze */
+  margin-bottom: 16px;
+  
+  }
+  
+  .moldura img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    height: 152px;
+    padding-bottom: 30px;
+    
+    
+
+    
+  }
+  .moldura2 {
+
+  border-radius: 12px;
+  background-color: rgb(201, 61, 61);
+  padding: 16px 16px 16px;
+  height: 140px;  /* MESMA altura que a imagem sem moldura */
+  box-sizing: border-box; /* impede o padding de aumentar o tamanho total */
+  position: relative;
+  overflow: hidden; /* garante que nada vaze */
+  margin-bottom: 16px;
+    
+  } 
+  .moldura2 img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    height: 154px;
+    padding-bottom: 30px; 
+  }
+  

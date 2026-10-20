@@ -1,0 +1,67 @@
+.hero {
+ background-image:url('../../assets/Background_Intro.svg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ min-height: 100vh;
+ 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: flex-start;
+ text-align: center;
+ padding-top: 120px;
+ gap: 20px;
+ 
+}
+.fotoperfil {
+ object-fit: cover;
+ width: 112px;
+ height: 112px;
+ margin-bottom: 56px;
+}
+
+.saudacao {
+font-family: var(--fonte-codigo);
+font-size: 24px;
+line-height: 120%;
+color: var(--cor-cinzaclaro);
+margin-bottom: 10px;
+
+}
+h1 {
+font-family: var(--fonte-titulo);
+font-size: 56px;
+line-height: 120%;
+font-weight: bold;
+color: var( --cor-branca);
+margin-bottom: 20px;
+
+}
+
+.descricao {
+font-family: var(--fonte-texto);
+font-size: 20px;
+line-height: 140%;
+color: var(--cor-cinza);
+margin-bottom: 80px;
+
+}
+.nomedestaque {
+ color: var(--cor-destaque); 
+}
+
+.badges-container {
+
+display: flex;
+gap: 12px;
+flex-wrap: wrap;
+
+}
+
+.setinha {
+
+padding-top: 94px;
+}
+
+

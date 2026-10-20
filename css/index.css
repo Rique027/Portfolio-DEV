@@ -1,0 +1,7 @@
+@import url(reset.css);
+@import url(variables.css);
+@import url(global.css);
+@import url(componentes/hero.css);
+@import url(componentes/projetos.css);
+@import url(componentes/servico.css);
+@import url(componentes/contato.css);
