@@ -1,0 +1,113 @@
+@media (max-width: 1024px) {
+  .card-container,
+  .service-container {
+    flex-wrap: wrap;
+  }
+
+  .service-container {
+    gap: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .service-card {
+    width: min(320px, 100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 0;
+    padding: 72px 24px 40px;
+    gap: 16px;
+  }
+
+  .fotoperfil {
+    width: 96px;
+    height: 96px;
+    margin-bottom: 24px;
+  }
+
+  .saudacao {
+    font-size: clamp(16px, 4vw, 20px);
+  }
+
+  h1 {
+    font-size: clamp(32px, 8vw, 44px);
+  }
+
+  .descricao {
+    max-width: 600px;
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+
+  .descricao br {
+    display: none;
+  }
+
+  .badges-container {
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .setinha {
+    padding-top: 28px;
+  }
+
+  .titulos-projeto,
+  .titulos-servico {
+    padding: 64px 20px 0;
+  }
+
+  .card-container {
+    gap: 20px;
+    padding: 32px 20px 64px;
+  }
+
+  .card {
+    width: min(300px, 100%);
+  }
+
+  .service-container {
+    padding: 0 20px 64px;
+  }
+
+  .titulos-contato {
+    padding: 64px 20px 0;
+    text-align: center;
+  }
+
+  .contato-container {
+    padding: 32px 20px 48px;
+  }
+
+  .contato-card {
+    width: min(350px, 100%);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .descricao {
+    margin-bottom: 24px;
+  }
+
+  .card-container {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .service-container {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .contato-card {
+    padding: 16px 12px;
+  }
+}
